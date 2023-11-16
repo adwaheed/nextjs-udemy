@@ -1,10 +1,11 @@
 "use client";
 import Image from "next/image";
-import { useState, useEffect } from "react";
+
 import axios from "axios";
 import StarIcon from "@mui/icons-material/Star";
 import StarBorderIcon from "@mui/icons-material/StarBorder";
 import Link from "next/link";
+import { useEffect, useState } from "react";
 
 const page = ({ params }) => {
   const [products, setProducts] = useState([]);

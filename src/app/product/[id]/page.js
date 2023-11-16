@@ -7,7 +7,7 @@ import StarBorderIcon from "@mui/icons-material/StarBorder";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
-const page = ({ params }) => {
+const Page = ({ params }) => {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
@@ -174,4 +174,4 @@ const page = ({ params }) => {
   );
 };
 
-export default page;
+export default Page;

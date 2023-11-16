@@ -213,11 +213,11 @@ const Courses = () => {
                   .filter((item) => item.category == "electronics")
                   .map((item, index) => (
                     <Tippy
-                      arrow="true"
                       offset={[0, -20]}
                       interactive="true"
                       animation="fade"
                       placement="right"
+                      arrow={false}
                       key={index}
                       className="p-5  rounded h-fit w-[270px] border border-black !bg-white !text-black"
                       content={
@@ -236,7 +236,7 @@ const Courses = () => {
                     >
                       <Link
                         href={`/product/${item.id}`}
-                        className="flex flex-col items-center justify-center"
+                        className="flex flex-col items-center justify-center hover:bg-gray-200 transition-all duration-300"
                       >
                         <div className="w-[200px] h-[150px]">
                           <Image
@@ -354,7 +354,7 @@ const Courses = () => {
                   .filter((item) => item.category == "jewelery")
                   .map((item, index) => (
                     <Tippy
-                      arrow="true"
+                      arrow={false}
                       offset={[0, -20]}
                       interactive="true"
                       animation="fade"
@@ -377,7 +377,7 @@ const Courses = () => {
                     >
                       <Link
                         href={`/product/${item.id}`}
-                        className="flex flex-col items-center justify-center"
+                        className="flex flex-col items-center justify-center hover:bg-gray-200 transition-all duration-300"
                       >
                         <div className="w-[200px] h-[150px]">
                           <Image
@@ -495,7 +495,7 @@ const Courses = () => {
                   .filter((item) => item.category == "men's clothing")
                   .map((item, index) => (
                     <Tippy
-                      arrow="true"
+                      arrow={false}
                       offset={[0, -20]}
                       interactive="true"
                       animation="fade"
@@ -518,7 +518,7 @@ const Courses = () => {
                     >
                       <Link
                         href={`/product/${item.id}`}
-                        className="flex flex-col items-center justify-center"
+                        className="flex flex-col items-center justify-center hover:bg-gray-200 transition-all duration-300"
                       >
                         <div className="w-[200px] h-[150px]">
                           <Image
@@ -632,7 +632,7 @@ const Courses = () => {
                   .filter((item) => item.category == "women's clothing")
                   .map((item, index) => (
                     <Tippy
-                      arrow="true"
+                      arrow={false}
                       offset={[0, -20]}
                       interactive="true"
                       animation="fade"
@@ -655,7 +655,7 @@ const Courses = () => {
                     >
                       <Link
                         href={`/product/${item.id}`}
-                        className="flex flex-col items-center justify-center"
+                        className="flex flex-col items-center justify-center hover:bg-gray-200 transition-all duration-300"
                       >
                         <div className="w-[200px] h-[150px]">
                           <Image
